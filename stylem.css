@@ -6112,3 +6112,32 @@ bton {
 .row,.col-xs-12 col-sm-6 col-md-3 col-lg-3,.text-box,.card-flyer,.text-container{
   height:620px;
 }
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial img {
+  margin: 20px;
+  height:250px;
+  width:200px;
+}
+
+.testimonial div {
+  max-width: 700px;
+}
+
+.testimonial h2 {
+  font-size: 28px;
+  color:whitesmoke;
+}
+.testimonial p {
+  font-style: italic;
+  font-size: 20px;
+  color:whitesmoke;
+  margin: 15px;
+}
