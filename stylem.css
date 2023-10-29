@@ -952,7 +952,7 @@ background-repeat:repeat-x;
 </html>*/
 
 
-/*css for testimonials*/
+/*css for testimonials
 .testim{
    color:#000;
    font-size: 20px;
@@ -964,11 +964,11 @@ background-repeat:repeat-x;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 
-/*.container {
+.container {
     background: linear-gradient(to bottom, #000428, #004683);
     animation: background-color 20s;
     min-height: 43vh
-}*/
+}
 
 @keyframes background-color {
     0% {
@@ -1004,7 +1004,7 @@ background-repeat:repeat-x;
   }
 
   
-}
+}*/
 
 /*.container {
     margin-top: 80px;
@@ -1101,7 +1101,7 @@ background-repeat:repeat-x;
 
 .card:hover .face.back-face {
     transform: rotateY(360deg)
-}
+}*/
 
 @media(max-width: 991.5px) {
     .col-lg-4 {
@@ -1109,7 +1109,7 @@ background-repeat:repeat-x;
         margin-bottom: 20px
     }
 }
-*/
+
 
 
 .testimonials
