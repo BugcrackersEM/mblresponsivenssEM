@@ -61,20 +61,6 @@ button:hover {
     padding: 2rem 50px;
   }
   }
-@media only screen and (max-width:600px) {
-  .body{
-    font-size: 14px;
-  }
-  .container{
-    width:100%;
-  }
-}
-@media screen and(max-width: 650px){
-  .container{
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 50px;
-  }
-}
 @media screen and(max-width: 650px){
   .hero{
     grid-template-columns: repeat(2, 1fr);
@@ -82,7 +68,7 @@ button:hover {
   }
 }
 @media screen and(max-width: 650px){
-  .pt-3 pb-3{
+  .col-12{
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
   }
@@ -92,4 +78,16 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
   }
+}
+@media screen and(max-width: 650px){
+  .col-md-4 mb-3{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
+}
+@media screen and(max-width: 650px){
+  .row{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
 }
