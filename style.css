@@ -81,6 +81,15 @@ button:hover {
     padding: 2rem 50px;
   }
 }
-
-
-
+@media screen and(max-width: 650px){
+  .pt-3 pb-3{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
+}
+@media screen and(max-width: 650px){
+  .pt-3 pb-3{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
+}
