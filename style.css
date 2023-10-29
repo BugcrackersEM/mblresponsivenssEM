@@ -60,5 +60,12 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
   }
-  
+  }
+@media only screen and (max-width:600px) {
+  body{
+    font-size: 14px;
+  }
+  .container{
+    width:100%;
+  }
 }
