@@ -1110,7 +1110,11 @@ background-repeat:repeat-x;
     }
 }
 
-
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
 .testimonials
 {
