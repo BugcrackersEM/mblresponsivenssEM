@@ -6212,6 +6212,7 @@ bton {
   justify-content: center;
 }
 .fcontainer{
+	 position: fixed;
 	min-height:100vh;
 	position:relative;
 }
