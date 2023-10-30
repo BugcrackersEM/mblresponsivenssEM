@@ -891,7 +891,7 @@ background-repeat:repeat-x;
 
 /* html for footer*/
 
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -951,7 +951,7 @@ background-repeat:repeat-x;
         </div>
     </footer>
 </body>
-</html>
+</html>*/
 
 
 /*css for testimonials
@@ -6309,7 +6309,7 @@ overflow:hidden;
 }
 .footer-wave {
 background-image: url('footer-shape.png');         /*style={{backgroundImage: "url('/images/footer-shape.png')" }}*/
-position: absolute;
+/*position: absolute;
 left: 0;
 top: 0;
 height: 100%;
