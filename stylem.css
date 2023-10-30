@@ -6212,5 +6212,11 @@ bton {
   justify-content: center;
 }
 .fcontainer{
-	height:150px;
+	min-height:100vh;
+	position:relative;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
 }
