@@ -6211,34 +6211,6 @@ bton {
   align-items: center;
   justify-content: center;
 }
-
-
-
-.testimonial {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  display: flex;
-  align-items: center;
-}
-
-.testimonial img {
-  margin: 20px;
-  height:250px;
-  width:200px;
-}
-
-.testimonial div {
-  max-width: 700px;
-}
-
-.testimonial h2 {
-  font-size: 28px;
-  color:whitesmoke;
-}
-.testimonial p {
-  font-style: italic;
-  font-size: 20px;
-  color:whitesmoke;
-  margin: 15px;
+.fcontainer{
+	height:150px;
 }
