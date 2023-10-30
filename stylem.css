@@ -802,6 +802,7 @@ height: 45px;
 right: 0;
 width: 100%;
 overflow:hidden;
+	margin-bottom:0px;
 }
 .footer-wave {
 background-image: url('footer-shape.png');         /*style={{backgroundImage: "url('/images/footer-shape.png')" }}*/
