@@ -6216,14 +6216,20 @@ bton {
 	min-height:100vh;
 	position:relative;
 }
-footer {
- 
+.footer {
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  height: 100px;
+  height: 50px;
   background-color: #ccc;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.footer-content {
+  width: 80%;
+  max-width: 960px;
 }
