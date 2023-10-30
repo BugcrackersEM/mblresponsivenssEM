@@ -712,6 +712,7 @@ p{
 
 
 /*css for footer*/
+/*
  *{
   margin:0;
   padding:0;
@@ -806,7 +807,7 @@ overflow:hidden;
 }
 .footer-wave {
 background-image: url('footer-shape.png');         /*style={{backgroundImage: "url('/images/footer-shape.png')" }}*/
-position: absolute;
+/*position: absolute;
 left: 0;
 top: 0;
 height: 100%;
@@ -6214,7 +6215,7 @@ bton {
 .row,.col-xs-12 col-sm-6 col-md-3 col-lg-3,.text-box,.card-flyer,.text-container{
   height:620px;
 }
-
+/*
 *{
   margin:0;
   padding:0;
@@ -6388,7 +6389,7 @@ background-repeat:repeat-x;
 .section_subtitle {
   line-height: 1.85;
   margin-top: 14px;
-}
+}*/
 
 footer {
   margin: 0;
