@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 /*start*/
 
 
@@ -98,3 +92,90 @@ footer {
 .fcontainer{
   height:150px;
 }
+
+
+/* Common styles for all screen sizes */
+.navbar {
+  background: #c5aa6a;
+  background: -webkit-linear-gradient(to right, black, #45edf3, #2d0b00);
+  background: -moz-linear-gradient(to right, black, #45edf3, #2d0b00);
+  background: linear-gradient(to right, black, #45edf3, #2d0b00);
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+button {
+  padding: 8px 19px;
+  background-color: #721227;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all ease-in-out 0s;
+}
+
+button:hover a {
+  color: #721227;
+}
+
+button:hover {
+  background: #fff;
+  color: #721227;
+}
+
+.navbar a:hover {
+  color: #721227;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Mobile-responsive styles for screens with a maximum width of 650px */
+@media screen and (max-width: 650px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10px; /* Adjust padding for smaller screens */
+  }
+
+  .hero {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10px; /* Adjust padding for smaller screens */
+  }
+
+  .col-12 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10px; /* Adjust padding for smaller screens */
+  }
+
+  .pt-3,
+  .pb-3 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10px; /* Adjust padding for smaller screens */
+  }
+
+  .col-md-4,
+  .mb-3 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10px; /* Adjust padding for smaller screens */
+  }
+
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Additional mobile-responsive styles can be added as needed */
