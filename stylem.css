@@ -6390,5 +6390,65 @@ background-repeat:repeat-x;
   margin-top: 14px;
 }*/
 
+/* Achievements Section Mobile Responsiveness */
+@media screen and (max-width: 650px) {
+  .achievements {
+    /* Add mobile-specific styles for the 'achievements' section */
+    /* For example, you can adjust the width, font size, or padding */
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+/* Article Section Mobile Responsiveness */
+@media screen and (max-width: 650px) {
+  .article {
+    /* Add mobile-specific styles for the 'article' section */
+    /* For example, you can adjust the width, font size, or margin */
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+/* Popular Online Courses Section Mobile Responsiveness */
+@media screen and (max-width: 650px) {
+  .online-courses {
+    /* Add mobile-specific styles for the 'online courses' section */
+    /* For example, you can adjust the layout or font size */
+    display: block;
+    font-size: 16px;
+  }
+}
+
+/* Latest Events Section Mobile Responsiveness */
+@media screen and (max-width: 650px) {
+  .latest-events {
+    /* Add mobile-specific styles for the 'latest events' section */
+    /* For example, you can adjust the layout or padding */
+    padding: 10px;
+  }
+}
+
+/* Testimonials Section Mobile Responsiveness */
+@media screen and (max-width: 650px) {
+  .testimonials {
+    /* Add mobile-specific styles for the 'testimonials' section */
+    /* For example, you can adjust the width, font size, or margins */
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+/* Footer Section Mobile Responsiveness */
+@media screen and (max-width: 650px) {
+  .footer {
+    /* Add mobile-specific styles for the 'footer' section */
+    /* For example, you can adjust the layout or padding */
+    padding: 10px;
+  }
+}
 
 
